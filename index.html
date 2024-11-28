@@ -6,7 +6,7 @@
     <title>Welcome to Wisdom CollecTV</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
@@ -19,38 +19,67 @@
             background-color: white;
             padding: 30px;
             border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .container:hover {
+            transform: translateY(-5px);
         }
 
         h1 {
             color: #2c3e50;
             text-align: center;
             margin-bottom: 30px;
+            font-size: 2.5em;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
         }
 
         p {
             color: #34495e;
             margin-bottom: 20px;
+            font-size: 1.1em;
         }
 
         .highlight {
-            background-color: #e74c3c;
+            background: linear-gradient(45deg, #e74c3c, #c0392b);
             color: white;
-            padding: 10px;
-            border-radius: 5px;
+            padding: 15px;
+            border-radius: 8px;
             text-align: center;
             margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .feature-list li {
+            padding: 10px;
+            margin: 10px 0;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            border-left: 4px solid #2c3e50;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to Wisdom CollecTV</h1>
-        <p>This is a simple test page to demonstrate HTML and CSS capabilities.</p>
+        <p>This is an enhanced version of our test page, now with improved styling and interactivity.</p>
         <div class="highlight">
-            A simple yet elegant design for our test page
+            Experience the power of modern web design
         </div>
-        <p>Feel free to explore and modify this template for your needs.</p>
+        <ul class="feature-list">
+            <li>✨ Enhanced Typography</li>
+            <li>🎨 Gradient Effects</li>
+            <li>🌟 Hover Animations</li>
+            <li>📱 Fully Responsive Design</li>
+        </ul>
+        <p>This updated version includes smooth animations, better typography, and a more polished look.</p>
     </div>
 </body>
 </html>
